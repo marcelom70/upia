@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Preferências de padrões de codificação
+
+- Sempre prefira soluções simples
+- Evite duplicação de código sempre que possível, o que significa verificar outras áreas da base de código que possam já ter código e funcionalidade semelhantes.
+- Escreva código que leve em consideração os diferentes ambientes: desenvolvimento, teste e produção.
+- Tenha o cuidado de fazer apenas alterações solicitadas ou que você tenha confiança, seja bem compreendido e esteja relacionado à alteração solicitada.
+- Ao corrigir um problema ou bug, não introduza um novo padrão ou tecnologia sem primeiro esgotar todas as opções para a implementação existente. E se você finalmente fizer isso, certifique-se de remover a implementação antiga posteriormente para que não tenhamos lógica duplicada.
+- Mantenha a base de código bem limpa e organizada.
+- Evite escrever scripts em arquivos, se possível, especialmente se o script provavelmente será executado apenas uma vez.
+- Evite ter arquivos com mais de 200 a 300 linhas de código. Refatore nesse ponto.
+- Dados de mock são necessários apenas para testes, nunca dados de mock para desenvolvimento ou produção.
+- - Nunca adicione stubbing ou padrões de dados falsos ao código que afete os ambientes de desenvolvimento ou produção.
+- Nunca sobrescreva meu arquivo .onv sem antes perguntar e confirmar.

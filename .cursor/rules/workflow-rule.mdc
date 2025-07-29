@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Preferências do fluxo de trabalho de codificação
+
+- Concentre-se nas áreas de código relevantes para a tarefa
+- Não altere código que não esteja relacionado à tarefa
+- Escreva testes completos para todas as principais funcionalidades
+- Evite fazer grandes alterações nos padrões e na arquitetura de funcionamento de um recurso, após ele ter demonstrado funcionar bem, a menos que explicitamente instruído
+- Sempre pense em quais outros métodos e áreas de código podem ser afetados pelas alterações de código

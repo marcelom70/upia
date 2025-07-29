@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Stack técnica
+
+- Python para o backend
+- HTML/JS para o frontend
+- Bancos de dados SQL, nunca armazenamento de arquivos JSON
+- Bancos de dados separados para dv, test e prod
+- Testes Python.
+- Sempre usar o deployment da aplicação em containers docker, com separação para banco de dados e aplicação, garantindo que a checagem de health do banco no docker-compose.yml
+- Se for necessário usar a api da OpenAI, usar o modelo "gpt-3.5-turbo" e a versão da lib openai==0.28.1 
